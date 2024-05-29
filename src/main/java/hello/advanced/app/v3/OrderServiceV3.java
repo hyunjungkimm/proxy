@@ -14,7 +14,7 @@ public class OrderServiceV3 {
     private final OrderRepositoryV3 orderRepository;
     private final LogTrace trace;
 
-    public void orderItem(TraceId traceId, String itemId) {
+    public void orderItem(String itemId) {
         TraceStatus status = null;
 
         try{
